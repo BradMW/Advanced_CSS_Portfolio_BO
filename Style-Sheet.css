@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --main: #192E41;
+    --text: #BBC8DE;
+    --link: #0D659D;
+
+}
+
+header {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    background: var(--main);
+    color: #fff;
+}
+
+h1 {
+    font-weight: 600;
+    font-style: italic;
+    font-size: xxx-large;
+    max-width: 400px;
+    padding-top: 2%;
+    justify-content: center;
+    text-align: start;
+    color:rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    padding-top: 30px;
+    padding-right: 10px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    
+}
+
+nav ul {
+    display:flex;
+    justify-content: flex-end;
+    list-style: none;
+    /* min-width: 300px; */
+}
+
+nav a {
+    font-size:xx-large;
+    color:var(--link);
+    padding: 20px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: var(--text);
+    color: var(--main);
+    border-radius: 50px;
+}
+
+h2 {
+    position: absolute;
+    top: 300px;
+    right: 16px;
+    color:white;
+    border-style: solid var(--main);
+    background-color: var(--main);
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    z-index: 1;
+}
+
+.design {
+    position: absolute;
+height: 600px;
+width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.about-me {
+    margin-right: 100%;
+    margin-top: 600px;
+    padding: 50px;
+    text-align:start;
+    border-right: solid var(--text);
+    border-width: thick;
+    /* padding: 30px; */
+}
+
+.about-me-text {
+    font-size: 25px;
+    padding-left: 250px;
+    position: relative;
+    bottom: 200px;
+}
+
+.work {
+    margin-right: 100%;
+    margin-top: 100px;
+    padding: 50px;
+    padding-right: 65px;
+    text-align:start;
+    border-right: solid var(--text);
+    border-width: thick;
+    /* padding: 30px; */
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+
+/* .card {
+    flex: 1 0 0;
+    padding: 10px;
+    text-align: left;
+} */
+
+/* .heading {
+    border-right: solid red;
+    border-width: thick;
+    padding: 30px;
+} */
+
+/* .DJI-Drone {
+    padding-left: 600px;
+    height: 200px;
+    width: 300px;
+} */
+
+h3 {
+    font-size: xx-large;
+    
+    
+}
+
+.footer ul {
+    font-size: xx-large;
+    justify-content: space-around;
+    text-align:end;
+    text-decoration: none;
+}
+
+.footer {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: start;
+    background: var(--main);
+    color: #fff;
+}
+
